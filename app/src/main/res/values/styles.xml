@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+
+    <style name="newsTitle">
+
+        <item name="android:textSize">@dimen/title_size</item>
+        <item name="android:paddingRight">@dimen/standard_padding</item>
+        <item name="android:paddingLeft">@dimen/standard_padding</item>
+        <item name="android:paddingTop">@dimen/half_padding</item>
+        <item name="android:paddingBottom">@dimen/quarter_padding</item>
+        <item name="android:textColor">@color/newsColor</item>
+
+    </style>
+
+    <style name="newsSummary">
+
+        <item name="android:textSize">@dimen/summary_size</item>
+        <item name="android:paddingRight">@dimen/standard_padding</item>
+        <item name="android:paddingLeft">@dimen/standard_padding</item>
+        <item name="android:paddingTop">@dimen/quarter_padding</item>
+        <item name="android:paddingBottom">@dimen/half_padding</item>
+        <item name="android:textColor">@color/summaryColor</item>
+
+    </style>
+
+
+    <style name="newsDate">
+
+        <item name="android:textSize">@dimen/date_size</item>
+        <item name="android:paddingRight">@dimen/standard_padding</item>
+        <item name="android:paddingLeft">@dimen/standard_padding</item>
+        <item name="android:paddingBottom">@dimen/standard_padding</item>
+
+    </style>
+
+
+    <style name="newsAuthor">
+
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/author_size</item>
+        <item name="android:paddingRight">@dimen/standard_padding</item>
+        <item name="android:paddingLeft">@dimen/standard_padding</item>
+        <item name="android:paddingBottom">@dimen/standard_padding</item>
+        <item name="android:paddingTop">@dimen/standard_padding</item>
+
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

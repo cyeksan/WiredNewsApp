@@ -1,0 +1,103 @@
+<resources>
+
+    <string name="app_name">Wired.com News</string>
+    <string name="results">articles</string>
+    <string name="web_title">title</string>
+    <string name="author">author</string>
+    <string name="title">title</string>
+    <string name="web_publication_date">publishedAt</string>
+    <string name="content">content</string>
+    <string name="web_url">url</string>
+    <string name="description">description</string>
+    <string name="thumbnail">urlToImage</string>
+    <string name="parsing_error">Json parsing error: </string>
+    <string name="not_get_json">Couldn\'t get json from server.</string>
+    <string name="no_news">No news found.
+
+        Please come back later.</string>
+
+    <string name="no_internet">No internet connection found.
+
+        Please check your internet connection and restart the app. </string>
+
+    <string name="warning">18dp black vector icon</string>
+    <string name="written_by">Written by: </string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="news_api_key">752d9e9b6464479789d86a5e954b202d</string>
+    <string name="url_key">url</string>
+    <string name="split_expression">, </string>
+    <string name="translate_api_key">AIzaSyDjrFQdsosl0w1BwChjIzUUDdKrCgfijmM</string>
+    <string name="turkish">tr</string>
+    <string name="no_translation">no translation</string>
+    <string name="wait">Please wait...</string>
+    <string name="keywords">Keywords: </string>
+
+    <string-array name="words_to_be_ignored">
+        <item>am</item>
+        <item>is</item>
+        <item>are</item>
+        <item>was</item>
+        <item>were</item>
+        <item>would</item>
+        <item>could</item>
+        <item>can</item>
+        <item>will</item>
+        <item>be</item>
+        <item>been</item>
+        <item>has</item>
+        <item>have</item>
+        <item>from</item>
+        <item>to</item>
+        <item>at</item>
+        <item>on</item>
+        <item>in</item>
+        <item>a</item>
+        <item>an</item>
+        <item>and</item>
+        <item>the</item>
+        <item>by</item>
+        <item>of</item>
+        <item>with</item>
+        <item>i</item>
+        <item>you</item>
+        <item>he</item>
+        <item>she</item>
+        <item>it</item>
+        <item>we</item>
+        <item>they</item>
+        <item>me</item>
+        <item>him</item>
+        <item>her</item>
+        <item>them</item>
+        <item>my</item>
+        <item>your</item>
+        <item>our</item>
+        <item>his</item>
+        <item>yours</item>
+        <item>their</item>
+        <item>about</item>
+        <item>as</item>
+        <item>so</item>
+        <item>for</item>
+        <item>or</item>
+        <item>but</item>
+        <item>than</item>
+        <item>more</item>
+        <item>all</item>
+        <item>that</item>
+        <item>this</item>
+        <item>these</item>
+        <item>who</item>
+        <item>which</item>
+        <item>where</item>
+        <item>whose</item>
+        <item>say</item>
+        <item>says</item>
+        <item>also</item>
+        <item>then</item>
+        <item>therefore</item>
+        <item>thus</item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="standard_padding">16dp</dimen>
+    <dimen name="half_padding">8dp</dimen>
+    <dimen name="quarter_padding">4dp</dimen>
+    <dimen name="warning_dimen">48dp</dimen>
+    <dimen name="bar_dimen">48dp</dimen>
+    <dimen name="news_image_dimen">230dp</dimen>
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="summary_size">16sp</dimen>
+    <dimen name="author_size">14sp</dimen>
+    <dimen name="date_size">12sp</dimen>
+    <dimen name="section_size">16sp</dimen>
+    <dimen name="keyword_size">16sp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="card_radius">2dp</dimen>
+    <dimen name="card_padding">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>

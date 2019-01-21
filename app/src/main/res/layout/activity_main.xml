@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cansu.wirednewsapp.MainActivity">
+
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </ListView>
+
+
+    <TextView
+
+        android:id="@+id/warning"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:padding="@dimen/standard_padding"
+        android:visibility="gone" />
+
+
+    <ImageView
+
+        android:id="@+id/warning_image"
+        android:layout_width="@dimen/warning_dimen"
+        android:layout_height="@dimen/warning_dimen"
+        android:layout_below="@+id/warning"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/warning"
+        android:gravity="center"
+        android:src="@drawable/ic_mood_bad"
+        android:visibility="gone" />
+
+    <ProgressBar
+
+        android:id="@+id/progress_bar"
+        android:layout_width="@dimen/bar_dimen"
+        android:layout_height="@dimen/bar_dimen"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminate="true" />
+
+</RelativeLayout>
